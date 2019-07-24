@@ -1,8 +1,8 @@
 package todo;
 
-import com.mekuanent.encryption.config.EnableEncryptionConfig;
-import com.mekuanent.encryption.handler.EncryptionHandler;
-import com.mekuanent.encryption.handler.PBEHandler;
+import com.github.mekuanent.encryption.config.EnableEncryptionConfig;
+import com.github.mekuanent.encryption.handler.EncryptionHandler;
+import com.github.mekuanent.encryption.handler.PBEHandler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
