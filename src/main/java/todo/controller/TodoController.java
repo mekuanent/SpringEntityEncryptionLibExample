@@ -34,15 +34,11 @@ public class TodoController {
     @RequestMapping(value = "/{id}/{title}/{desc}", method = RequestMethod.PATCH)
     public Todo update(@PathVariable Long id, @PathVariable String title, @PathVariable String desc){
 
-        AtomicReference<Todo> todo = new AtomicReference<>();
-
-        todoRepository.findById(id).ifPresent(t -> {
-            t.setTitle(title);
-            t.setDescription(desc);
-            todo.set(todoRepository.save(t));
-        });
-
-        return todo.get();
+        Todo todo1 = new Todo();
+        todo1.setId(id);
+        todo1.setTitle(title);
+        todo1.setDescription(desc);
+        return todoRepository.save(todo1);
     }
 
 }
