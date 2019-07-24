@@ -1,13 +1,11 @@
 package todo.encryption;
 
-import com.fasterxml.jackson.databind.ser.Serializers;
-import com.mekuanent.encryption.handler.IEncryptionHandler;
+import com.github.mekuanent.encryption.handler.IEncryptionHandler;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 
 /**
