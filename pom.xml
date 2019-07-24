@@ -49,10 +49,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.mekuanent.lib</groupId>
-            <artifactId>spring-hibernate-entity-encription</artifactId>
-            <version>0.9.3-RELEASE</version>
-            <scope>compile</scope>
+            <groupId>com.github.mekuanent</groupId>
+            <artifactId>spring-hibernate-entity-encryption</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
