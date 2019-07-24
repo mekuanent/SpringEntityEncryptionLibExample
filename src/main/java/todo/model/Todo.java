@@ -1,7 +1,7 @@
 package todo.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.mekuanent.encryption.annotation.Encrypted;
+import com.github.mekuanent.encryption.annotation.Encrypted;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import todo.encryption.CustomEncryptionHandler;
