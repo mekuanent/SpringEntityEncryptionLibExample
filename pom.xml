@@ -51,7 +51,7 @@
         <dependency>
             <groupId>com.github.mekuanent</groupId>
             <artifactId>spring-hibernate-entity-encryption</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 

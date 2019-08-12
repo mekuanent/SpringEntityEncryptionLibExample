@@ -20,8 +20,8 @@ public class Application {
 
     public static void main(String[] args) {
 
-        EncryptionHandler.set(new PBEHandler("boooooooooom!!!!",
-                "some really huge salt", "akjhsdjalshdkasjhdkjashdksad", 100, 256));
+        EncryptionHandler.set(new PBEHandler(new char[]{'H', 'E', 'L', 'L', 'O', 'M', 'Y', 'P', 'A', 'S', 'S'},
+                "some really huge salt".getBytes(), "akjhsdjalshdkasjhdkjashdksad".getBytes(), 100, 256));
 
         ApplicationContext ctx = SpringApplication.run(Application.class, args);
     }
